@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO Meta Tags -->
+  <title>The British Bakes | The Perfect Blend of Coffee, Bakes & Cuisine</title>
+  <meta name="description"
+    content="The British Bakes — a multicuisine café inspired by British heritage. Savour artisan bakes, English classics, Mediterranean hearths, and Pan-Asian delights under one roof in Koregaon Park, Pune.">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="logo" id="logo-link">
+        <span class="logo-the">The</span>
+        <span class="logo-british">British</span>
+        <span class="logo-bakes">Bakes</span>
+      </a>
+      <nav>
+        <ul class="nav-links" id="nav-menu">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#concept">Our Story</a></li>
+          <li><a href="#menu">Cuisines</a></li>
+          <li><a href="#full-menu">Menu</a></li>
+          <li><a href="#reserve" class="btn btn-secondary open-booking">Reserve Table</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle-btn" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <p class="hero-subtitle">Welcome to The British Bakes</p>
+
+      <!-- Circular badge logo — matching the menu card image -->
+      <div class="logo-badge">
+        <span class="logo-the">The</span>
+        <span class="logo-british">British</span>
+        <span class="logo-bakes">Bakes</span>
+        <span class="logo-badge-icon">☕ 🥐</span>
+      </div>
+
+      <p class="hero-tagline">The Perfect Blend of Coffee, Bakes, and Cuisine.</p>
+      <div class="hero-divider"><span>✦</span></div>
+      <h1 class="hero-title">A Table Set for the World:<br>Where Every Flavour Finds a Home</h1>
+      <p class="hero-desc">Step inside, let the hum of the city fade, and follow the scent of fresh-ground espresso and
+        warm, caramelised butter. A journey through Britain and beyond.</p>
+      <div class="hero-actions">
+        <a href="#full-menu" class="btn btn-primary">Explore the Menu</a>
+        <a href="#reserve" class="btn btn-secondary open-booking">Book a Table</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Story & Concept Section -->
+  <section class="concept" id="concept">
+    <div class="container">
+      <div class="concept-grid">
+        <div class="concept-text reveal">
+          <p class="section-subtitle">Our Philosophy</p>
+          <h2 class="concept-title">More than a café; an invitation to connect across cultures</h2>
+          <p class="concept-desc">Inspired by the great British café tradition — warm, unhurried, welcoming — we have
+            woven in the flavours of the world. From flaky English scones to fragrant biryanis and wood-fired
+            flatbreads, every dish is a passport stamp on your palate.</p>
+          <div class="concept-highlight">
+            "Food is the common thread that weaves our stories together, turning strangers into family over a single
+            shared meal."
+          </div>
+          <p class="concept-desc">Under soft amber lights, rustic wood, and the quiet clink of teacups, we invite you
+            to slow down and savour a global culinary journey crafted with deep respect for heritage and flavour.</p>
+        </div>
+        <div class="concept-visual reveal" style="transition-delay: 0.2s;">
+          <img src="assets/hero_ambiance.png"
+            alt="Warm ambient interior of The British Bakes cafe with soft glowing lighting and rustic wooden tables">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cuisines Showcase Section -->
+  <section class="cuisines" id="menu">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-subtitle">A Culinary Odyssey</p>
+        <h2 class="section-title">Our Diverse Offerings</h2>
+        <div class="section-ornament"><span>✦</span></div>
+        <p class="section-desc">A unique multi-cuisine sensory journey — from the cobbled streets of London to the
+          spice markets of the Orient — every dish prepared with authentic techniques and heart.</p>
+      </div>
+
+      <!-- The British Table -->
+      <div class="cuisine-item reveal">
+        <div class="cuisine-img-wrapper" data-label="British Classics">
+          <img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?q=80&w=800&auto=format&fit=crop"
+            alt="Classic full English breakfast with eggs, beans, sausages and toast on a rustic plate">
+        </div>
+        <div class="cuisine-info">
+          <span class="cuisine-tag">Heritage Classics</span>
+          <h3 class="cuisine-name">The British Table</h3>
+          <p class="cuisine-description">Rooted in the great British café tradition — hearty, honest, and deeply
+            comforting. Begin the day with our celebrated Full English, piled high with free-range eggs, smoked
+            back bacon, grilled tomatoes, and hand-baked beans on sourdough toast. Or settle in for a proper Afternoon
+            Tea, complete with finger sandwiches, warm scones, and a pot of Earl Grey brewed to perfection.</p>
+
+          <div class="signature-dishes">
+            <h4 class="signature-title">Table Signatures</h4>
+            <ul class="dish-list">
+              <li><strong>The Full English</strong> — Free-range eggs, smoked bacon, sausages, grilled tomatoes, baked
+                beans & sourdough toast</li>
+              <li><strong>Afternoon Tea for Two</strong> — Finger sandwiches, warm scones, clotted cream & Earl Grey
+              </li>
+              <li><strong>Shepherd's Pie</strong> — Slow-braised lamb mince, golden mashed potato crust, garden peas
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- The Parisian Oven -->
+      <div class="cuisine-item reveal">
+        <div class="cuisine-img-wrapper" data-label="Artisan Bakes">
+          <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=800&auto=format&fit=crop"
+            alt="Freshly baked golden buttery croissants and rustic sourdough bread loaves">
+        </div>
+        <div class="cuisine-info">
+          <span class="cuisine-tag">Artisanal Bakes</span>
+          <h3 class="cuisine-name">The Parisian Oven</h3>
+          <p class="cuisine-description">Our morning begins with the patient rhythm of the baker's hands. The air fills
+            with the rich, buttery aroma of pastries rising to golden perfection. Experience the crisp, shattering
+            crunch of our classic croissants — laminated with care to create countless paper-thin layers — or savour
+            the rustic, chewy crust of our naturally leavened sourdough, perfect warm with salted butter.</p>
+
+          <div class="signature-dishes">
+            <h4 class="signature-title">Baker's Signatures</h4>
+            <ul class="dish-list">
+              <li><strong>Classic Laminated Croissant</strong> — Flaky, golden layers made with fine churned butter
+              </li>
+              <li><strong>House Wild-Yeast Sourdough</strong> — Slow-fermented, thick chewy crust, soft airy crumb
+              </li>
+              <li><strong>Pain au Chocolat</strong> — Delicate puff pastry rolled around dark Belgian chocolate bars
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mediterranean Hearth -->
+      <div class="cuisine-item reveal">
+        <div class="cuisine-img-wrapper" data-label="Mediterranean">
+          <img src="https://images.unsplash.com/photo-1534080391025-09795d197a5b?q=80&w=800&auto=format&fit=crop"
+            alt="Rustic flatbread pizza topped with heirloom tomatoes, fresh mozzarella, and aromatic basil">
+        </div>
+        <div class="cuisine-info">
+          <span class="cuisine-tag">Sun-Kissed Classics</span>
+          <h3 class="cuisine-name">The Mediterranean Hearth</h3>
+          <p class="cuisine-description">Sourced from the sun-drenched hillsides of the Mediterranean, these dishes
+            celebrate the beauty of simplicity and vibrant colours. Hand-stretched flatbreads pulled steaming from the
+            oven, drizzled with cold-pressed olive oil, topped with heirloom tomatoes and fresh peppery basil.
+            Comforting house-made tagliatelle tossed in a slow-simmered ragù carrying the soul of Italian cooking.</p>
+
+          <div class="signature-dishes">
+            <h4 class="signature-title">Hearth Signatures</h4>
+            <ul class="dish-list">
+              <li><strong>Heirloom Basil Flatbread</strong> — Hand-stretched dough, cold-pressed olive oil, fresh
+                mozzarella</li>
+              <li><strong>Slow-Simmered Tagliatelle Ragù</strong> — Fresh hand-rolled egg pasta, robust heritage beef
+                sauce</li>
+              <li><strong>Charred Citrus Sea Bass</strong> — Roasted with capers, wild thyme, and sun-ripened lemons
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pan-Asian Trail -->
+      <div class="cuisine-item reveal">
+        <div class="cuisine-img-wrapper" data-label="Pan-Asian">
+          <img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?q=80&w=800&auto=format&fit=crop"
+            alt="Steaming bamboo basket holding hand-folded crystal dumplings over aromatic broth">
+        </div>
+        <div class="cuisine-info">
+          <span class="cuisine-tag">Aromatic Profiles</span>
+          <h3 class="cuisine-name">The Steam & Spice Trail</h3>
+          <p class="cuisine-description">Journey further East with dishes that balance delicate textures and bright,
+            aromatic profiles. Lift the lid of a bamboo steamer to reveal delicate, hand-folded crystal dumplings,
+            translucent and bursting with ginger-infused broth. From the comforting warmth of our coconut laksa to
+            the zesty crunch of green papaya salad tossed with lime and peanuts — each plate a harmonious dance of
+            sweet, salty, sour, and heat.</p>
+
+          <div class="signature-dishes">
+            <h4 class="signature-title">Trail Signatures</h4>
+            <ul class="dish-list">
+              <li><strong>Crystal Ginger Dumplings</strong> — Hand-folded translucent wrappers, spiced broth, minced
+                vegetables</li>
+              <li><strong>Aromatic Coconut Laksa</strong> — Rice noodles, crisp bean sprouts, authentic spicy coconut
+                broth</li>
+              <li><strong>Zesty Green Papaya Salad</strong> — Shredded fresh papaya, crushed peanuts, lime-chili
+                vinaigrette</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =====================================================
+       FULL MENU SECTION — Tabbed Menu Cards (Real Menu)
+       ===================================================== -->
+  <section class="menu-section" id="full-menu">
+    <div class="container">
+      <div class="section-header reveal">
+        <p class="section-subtitle">The British Bakes Menu</p>
+        <h2 class="section-title">What We Serve</h2>
+        <div class="section-ornament"><span>✦</span></div>
+        <p class="section-desc">The Perfect Blend of Coffee, Bakes, and Cuisine — from your first morning sip to
+          the last sweet bite.</p>
+      </div>
+
+      <!-- Tab Buttons -->
+      <div class="menu-tabs reveal" id="menu-tabs">
+        <button class="menu-tab-btn active" data-tab="coffee" id="tab-coffee">☕ Coffee &amp; Tea</button>
+        <button class="menu-tab-btn" data-tab="cold" id="tab-cold">🧊 Cold Drinks</button>
+        <button class="menu-tab-btn" data-tab="breads" id="tab-breads">🥐 Bakes & Breads</button>
+        <button class="menu-tab-btn" data-tab="pastries" id="tab-pastries">🍰 Pastries</button>
+        <button class="menu-tab-btn" data-tab="cakes" id="tab-cakes">🎂 Cakes</button>
+        <button class="menu-tab-btn" data-tab="cheesecake" id="tab-cheesecake">🍮 Cheesecakes</button>
+        <button class="menu-tab-btn" data-tab="desserts" id="tab-desserts">🍫 Desserts & Sundaes</button>
+        <button class="menu-tab-btn" data-tab="bites" id="tab-bites">🍕 Rolls & Snacks</button>
+      </div>
+
+      <!-- ☕ COFFEE & TEA PANEL -->
+      <div class="menu-grid-panel active" id="panel-coffee">
+
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Espresso</span><span class="menu-item-price">₹115</span></div><p class="menu-item-desc">Rich concentrated shot of our house-blend. Short and powerful.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Kapi / Con Panna</span><span class="menu-item-price">₹140</span></div><p class="menu-item-desc">South Indian filter coffee or espresso topped with whipped cream.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Americano</span><span class="menu-item-price">₹140</span></div><p class="menu-item-desc">Espresso pulled long with hot water — bold, clean and refreshing.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Latte</span><span class="menu-item-price">₹180</span></div><p class="menu-item-desc">Silky steamed milk over a double espresso. Smooth and comforting.</p><span class="menu-item-badge badge-special">Bestseller</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Cappuccino</span><span class="menu-item-price">₹140</span></div><p class="menu-item-desc">Equal parts espresso, steamed milk and thick velvety foam — the Italian classic.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Macchiato</span><span class="menu-item-price">₹140</span></div><p class="menu-item-desc">Espresso "stained" with a small dollop of steamed milk foam.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Frappe / Iced Coffee</span><span class="menu-item-price">₹145</span></div><p class="menu-item-desc">Blended espresso with milk and ice into a chilled frothy treat.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Affogato</span><span class="menu-item-price">₹180</span></div><p class="menu-item-desc">Vanilla ice cream drowned in hot espresso. Dessert meets coffee.</p><span class="menu-item-badge badge-special">Must Try</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Almond Milk Latte</span><span class="menu-item-price">₹220</span></div><p class="menu-item-desc">Double espresso with creamy plant-based almond milk. Light, nutty, dairy-free.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Almond Milk Cappuccino</span><span class="menu-item-price">₹220</span></div><p class="menu-item-desc">Classic cappuccino made entirely with frothy almond milk.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Almond Milk Macchiato</span><span class="menu-item-price">₹220</span></div><p class="menu-item-desc">Layers of almond milk foam and bold espresso. Elegant and plant-based.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Vienna Cappuccino</span><span class="menu-item-price">₹200</span></div><p class="menu-item-desc">Viennese cappuccino topped with whipped cream and a dusting of cocoa.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Cinnamon Cappuccino</span><span class="menu-item-price">₹140</span></div><p class="menu-item-desc">Warm cappuccino dusted with fragrant ground cinnamon.</p></div>
+
+        <div class="menu-card" style="grid-column:1/-1;background:transparent;border-color:transparent;border-left:none;padding:0.5rem 0 0"><span class="cuisine-tag" style="font-size:.85rem">— Teas —</span></div>
+
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">English Breakfast Tea</span><span class="menu-item-price">₹90</span></div><p class="menu-item-desc">Full-bodied Assam black tea brewed proper British style. Served with milk and sugar.</p><span class="menu-item-badge badge-special">British Classic</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Chamomile</span><span class="menu-item-price">₹90</span></div><p class="menu-item-desc">Soothing floral chamomile herbal tea — gentle and caffeine-free.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Green Tea</span><span class="menu-item-price">₹90</span></div><p class="menu-item-desc">Light and grassy green tea leaves, steeped to release delicate flavour.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Lemon Tea</span><span class="menu-item-price">₹90</span></div><p class="menu-item-desc">Black tea brightened with fresh lemon squeeze and a touch of honey.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Ginger Tea</span><span class="menu-item-price">₹90</span></div><p class="menu-item-desc">Warming ginger-infused black tea — spicy, aromatic and invigorating.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Masala Tea</span><span class="menu-item-price">₹90</span></div><p class="menu-item-desc">Assam CTC simmered with cardamom, cloves, ginger and cinnamon in full-cream milk.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Red Aloevera &amp; Masala Tea Combo</span><span class="menu-item-price">₹120</span></div><p class="menu-item-desc">Cooling red aloevera drink paired with a pot of spiced masala chai.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Herbal Drinking Flower</span><span class="menu-item-price">₹110</span></div><p class="menu-item-desc">Butterfly pea or hibiscus floral infusion — caffeine-free and visually stunning.</p></div>
+
+      </div><!-- /coffee -->
+
+      <!-- 🧊 COLD DRINKS PANEL -->
+      <div class="menu-grid-panel" id="panel-cold">
+
+        <div class="menu-card" style="grid-column:1/-1;background:transparent;border-color:transparent;border-left:none;padding:0.5rem 0 0"><span class="cuisine-tag" style="font-size:.85rem">— Gold Coffee (Iced) —</span></div>
+
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Gold Frappe</span><span class="menu-item-price">₹170</span></div><p class="menu-item-desc">Blended iced coffee with a golden creamy finish. Smooth, sweet and chilled.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Iced Cappuccino</span><span class="menu-item-price">₹140</span></div><p class="menu-item-desc">Cold-brewed espresso with chilled milk foam and ice.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Iced Latte</span><span class="menu-item-price">₹140</span></div><p class="menu-item-desc">Double espresso over ice with cold milk poured gently. Clean and refreshing.</p><span class="menu-item-badge badge-special">Bestseller</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Caramel Frappe</span><span class="menu-item-price">₹240</span></div><p class="menu-item-desc">Blended espresso with rich caramel sauce, milk and ice. Whipped cream on top.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Caramel Besto</span><span class="menu-item-price">₹240</span></div><p class="menu-item-desc">A special caramel cold brew blend — house signature with layers of caramel and cream.</p><span class="menu-item-badge badge-special">House Special</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Almond Milk Special Cold Coffee</span><span class="menu-item-price">₹245</span></div><p class="menu-item-desc">Cold espresso blended with almond milk and a hint of mocha. Dairy-free indulgence.</p></div>
+
+        <div class="menu-card" style="grid-column:1/-1;background:transparent;border-color:transparent;border-left:none;padding:0.5rem 0 0"><span class="cuisine-tag" style="font-size:.85rem">— Iced Teas —</span></div>
+
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Lemon Iced Tea</span><span class="menu-item-price">₹130</span></div><p class="menu-item-desc">Chilled black tea with fresh lemon juice. Classic and crisp.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Peach Iced Tea</span><span class="menu-item-price">₹130</span></div><p class="menu-item-desc">Chilled tea infused with sweet peach syrup and fresh mint.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Blue Curacao Iced Tea</span><span class="menu-item-price">₹145</span></div><p class="menu-item-desc">Striking blue-hued iced tea with citrusy Blue Curacao notes.</p></div>
+
+        <div class="menu-card" style="grid-column:1/-1;background:transparent;border-color:transparent;border-left:none;padding:0.5rem 0 0"><span class="cuisine-tag" style="font-size:.85rem">— Smoothies —</span></div>
+
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Kiwi Smoothie</span><span class="menu-item-price">₹340</span></div><p class="menu-item-desc">Fresh kiwi blended with yoghurt and honey. Tangy, tropical and thick.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Mango Smoothie</span><span class="menu-item-price">₹345</span></div><p class="menu-item-desc">Alphonso mango pulp blended with chilled milk and cardamom.</p><span class="menu-item-badge badge-special">Seasonal Fav</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Strawberry Smoothie</span><span class="menu-item-price">₹340</span></div><p class="menu-item-desc">Ripe strawberries blended with vanilla yoghurt and honey.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Black Currant Smoothie</span><span class="menu-item-price">₹350</span></div><p class="menu-item-desc">Deep purple black currant smoothie — rich in antioxidants and flavour.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Avocado Smoothie</span><span class="menu-item-price">₹345</span></div><p class="menu-item-desc">Creamy avocado blended with milk and honey. Thick, nutritious and indulgent.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Blueberry Smoothie</span><span class="menu-item-price">₹345</span></div><p class="menu-item-desc">Fresh blueberries with Greek yoghurt. Vibrant, tangy and full of flavour.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Mixed Fruit Smoothie</span><span class="menu-item-price">₹350</span></div><p class="menu-item-desc">Seasonal blend of mango, banana, strawberry and more.</p></div>
+
+        <div class="menu-card" style="grid-column:1/-1;background:transparent;border-color:transparent;border-left:none;padding:0.5rem 0 0"><span class="cuisine-tag" style="font-size:.85rem">— Chillers &amp; Mojitos —</span></div>
+
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Oreo Mojito</span><span class="menu-item-price">₹260</span></div><p class="menu-item-desc">Crushed Oreo with chilled milk and mint soda. Creamy and fun.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Oreo Apple Mojito</span><span class="menu-item-price">₹270</span></div><p class="menu-item-desc">Apple juice and Oreo crumble over ice with mint. Sweet and crisp.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Watermelon Mojito</span><span class="menu-item-price">₹260</span></div><p class="menu-item-desc">Fresh watermelon, mint, lime and soda. Perfectly summery.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Kiwi Mojito</span><span class="menu-item-price">₹300</span></div><p class="menu-item-desc">Tangy kiwi puree, fresh mint and soda water over crushed ice.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Mango Mojito</span><span class="menu-item-price">₹270</span></div><p class="menu-item-desc">Alphonso mango with mint and sparkling water. Tropical and refreshing.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Kala Khatta Mojito</span><span class="menu-item-price">₹260</span></div><p class="menu-item-desc">Jamun syrup, chaat masala, mint and soda. A desi twist on a classic.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Pineapple Juice</span><span class="menu-item-price">₹140</span></div><p class="menu-item-desc">Freshly pressed chilled pineapple juice. Sweet, tangy and tropical.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Watermelon Juice</span><span class="menu-item-price">₹140</span></div><p class="menu-item-desc">Pure freshly pressed watermelon juice. Light, hydrating and naturally sweet.</p></div>
+
+      </div><!-- /cold -->
+
+      <!-- 🥐 BAKES & BREADS PANEL -->
+      <div class="menu-grid-panel" id="panel-breads">
+
+        <div class="menu-card" style="grid-column:1/-1;background:transparent;border-color:transparent;border-left:none;padding:0.5rem 0 0"><span class="cuisine-tag" style="font-size:.85rem">— Croissants —</span></div>
+
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Classic Croissant</span><span class="menu-item-price">₹120</span></div><p class="menu-item-desc">All-butter laminated croissant — flaky, golden and impossibly light. Baked fresh daily.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Pain Au Chocolat</span><span class="menu-item-price">₹150</span></div><p class="menu-item-desc">Buttery puff pastry wrapped around dark Belgian chocolate batons. Best warm.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Croissant Bun</span><span class="menu-item-price">₹130</span></div><p class="menu-item-desc">Hybrid of croissant and bun — crispy layers outside, soft and pillowy inside.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+
+        <div class="menu-card" style="grid-column:1/-1;background:transparent;border-color:transparent;border-left:none;padding:0.5rem 0 0"><span class="cuisine-tag" style="font-size:.85rem">— Puffs —</span></div>
+
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Pooji &amp; Potato Puff</span><span class="menu-item-price">₹80</span></div><p class="menu-item-desc">Flaky puff pastry with spiced potato and green peas filling.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Mushroom Puff</span><span class="menu-item-price">₹90</span></div><p class="menu-item-desc">Buttery puff pastry stuffed with sautéed garlic mushrooms and herbs.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Chicken Charlie Puff</span><span class="menu-item-price">₹100</span></div><p class="menu-item-desc">Crispy puff pastry loaded with a spiced shredded chicken filling.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Harika Americana Puff</span><span class="menu-item-price">₹100</span></div><p class="menu-item-desc">Special puff with a creamy American-style filling — a house favourite.</p><span class="menu-item-badge badge-special">House Special</span></div>
+
+        <div class="menu-card" style="grid-column:1/-1;background:transparent;border-color:transparent;border-left:none;padding:0.5rem 0 0"><span class="cuisine-tag" style="font-size:.85rem">— English Breads —</span></div>
+
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Rye Walder</span><span class="menu-item-price">₹120</span></div><p class="menu-item-desc">Dense, earthy rye bread — nutty and wholesome. Perfect with butter or cheese.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">White Bread</span><span class="menu-item-price">₹120</span></div><p class="menu-item-desc">Classic soft, pillowy white sandwich bread. Baked fresh in the British tradition.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Brown Bread</span><span class="menu-item-price">₹120</span></div><p class="menu-item-desc">Wholemeal brown bread — slightly dense with a soft, nutty crumb.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Brioche Bread</span><span class="menu-item-price">₹150</span></div><p class="menu-item-desc">Enriched French-style bread with butter and eggs. Soft, golden and slightly sweet.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Kenny's Bread</span><span class="menu-item-price">₹150</span></div><p class="menu-item-desc">Our signature house loaf — soft interior, rustic crust. A bakery staple.</p><span class="menu-item-badge badge-special">House Special</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Cheese Bread</span><span class="menu-item-price">₹135</span></div><p class="menu-item-desc">Soft loaf baked with melted cheese in every layer. Warm and indulgent.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Brioche Bread Bags</span><span class="menu-item-price">₹180</span></div><p class="menu-item-desc">Individual brioche rolls in a gift bag — perfect to take away or share.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Sandwich Bread Loaf</span><span class="menu-item-price">₹250</span></div><p class="menu-item-desc">Full loaf of sliced sandwich bread. Pre-sliced and fresh for home use.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Sourdough Bread</span><span class="menu-item-price">₹400</span></div><p class="menu-item-desc">48-hour wild-yeast sourdough with thick caramelised crust and airy crumb.</p><span class="menu-item-badge badge-special">Artisan Bake</span></div>
+
+        <div class="menu-card" style="grid-column:1/-1;background:transparent;border-color:transparent;border-left:none;padding:0.5rem 0 0"><span class="cuisine-tag" style="font-size:.85rem">— Eggless Muffins —</span></div>
+
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Almond Muffin</span><span class="menu-item-price">₹90</span></div><p class="menu-item-desc">Moist eggless muffin packed with whole almonds and almond essence.</p><span class="menu-item-badge badge-veg">Veg · Eggless</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Chocolate Chip Muffin</span><span class="menu-item-price">₹90</span></div><p class="menu-item-desc">Fluffy eggless muffin studded with melting dark chocolate chips.</p><span class="menu-item-badge badge-veg">Veg · Eggless</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Almond &amp; Walnut Muffin</span><span class="menu-item-price">₹65</span></div><p class="menu-item-desc">Double-nut eggless muffin with almond and walnut crunch in every bite.</p><span class="menu-item-badge badge-veg">Veg · Eggless</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Blueberry Muffin</span><span class="menu-item-price">₹90</span></div><p class="menu-item-desc">Juicy, bursting blueberries baked into a soft eggless muffin.</p><span class="menu-item-badge badge-veg">Veg · Eggless</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Sugar Free Muffin</span><span class="menu-item-price">₹100</span></div><p class="menu-item-desc">Guilt-free eggless muffin sweetened naturally — no refined sugar.</p><span class="menu-item-badge badge-veg">Veg · Sugar Free</span></div>
+
+      </div><!-- /breads -->
+
+      <!-- 🍰 PASTRIES PANEL -->
+      <div class="menu-grid-panel" id="panel-pastries">
+
+        <div class="menu-card" style="grid-column:1/-1;background:transparent;border-color:transparent;border-left:none;padding:0.5rem 0 0"><span class="cuisine-tag" style="font-size:.85rem">— Pastries (per slice ₹130) —</span></div>
+
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Pineapple Pastry</span><span class="menu-item-price">₹130</span></div><p class="menu-item-desc">Vanilla sponge layered with fresh pineapple cream and pineapple chunks.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Black Forest Pastry</span><span class="menu-item-price">₹130</span></div><p class="menu-item-desc">Chocolate sponge, whipped cream, cherry compote and dark chocolate shavings.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Fresh Mango Pastry</span><span class="menu-item-price">₹130</span></div><p class="menu-item-desc">Sponge layers with Alphonso mango cream and fresh mango slices.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Fresh Strawberry Pastry</span><span class="menu-item-price">₹130</span></div><p class="menu-item-desc">Vanilla sponge with strawberry jam, fresh cream and ripe strawberry slices.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Blueberry Pastry</span><span class="menu-item-price">₹130</span></div><p class="menu-item-desc">Vanilla sponge layered with blueberry compote and whipped cream.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Fresh Orange Pastry</span><span class="menu-item-price">₹130</span></div><p class="menu-item-desc">Citrus sponge with orange curd cream and fresh orange segments.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Chocolate Oreo Pastry</span><span class="menu-item-price">₹130</span></div><p class="menu-item-desc">Chocolate sponge with Oreo crumble, chocolate mousse and crushed biscuit layers.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Coffee &amp; Mocha Pastry</span><span class="menu-item-price">₹130</span></div><p class="menu-item-desc">Espresso-soaked sponge with mocha cream and dark chocolate ganache drizzle.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Butterscotch Pastry</span><span class="menu-item-price">₹130</span></div><p class="menu-item-desc">Soft sponge with butterscotch cream, caramel sauce and almond praline topping.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Lotus Biscoff Pastry</span><span class="menu-item-price">₹130</span></div><p class="menu-item-desc">Sponge filled with Biscoff cream and crushed caramelised Lotus cookies on top.</p><span class="menu-item-badge badge-special">Customer Fav</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Cheese Bhoot</span><span class="menu-item-price">₹280</span></div><p class="menu-item-desc">A decadent house-special cream cheese pastry — rich, luscious and utterly indulgent.</p><span class="menu-item-badge badge-special">House Special</span></div>
+
+        <div class="menu-card" style="grid-column:1/-1;background:transparent;border-color:transparent;border-left:none;padding:0.5rem 0 0"><span class="cuisine-tag" style="font-size:.85rem">— Eggless Sponge Cakes —</span></div>
+
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Chocolate Eggless Sponge</span><span class="menu-item-price">₹300</span></div><p class="menu-item-desc">Moist dark chocolate sponge — eggless and rich. Perfect base or on its own.</p><span class="menu-item-badge badge-veg">Veg · Eggless</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Vanilla Sponge</span><span class="menu-item-price">₹275</span></div><p class="menu-item-desc">Light fluffy eggless vanilla sponge — soft, airy and versatile.</p><span class="menu-item-badge badge-veg">Veg · Eggless</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Chocolate Almond Sponge</span><span class="menu-item-price">₹300</span></div><p class="menu-item-desc">Eggless chocolate sponge with roasted almond meal baked in for extra richness.</p><span class="menu-item-badge badge-veg">Veg · Eggless</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Red Velvet / Spinach Sponge</span><span class="menu-item-price">₹325</span></div><p class="menu-item-desc">Deep red velvet or vibrant green spinach sponge — eggless and spectacular.</p><span class="menu-item-badge badge-veg">Veg · Eggless</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Almond Sponge</span><span class="menu-item-price">₹300</span></div><p class="menu-item-desc">Delicate eggless almond-meal sponge — nutty, moist and gluten-friendlier.</p><span class="menu-item-badge badge-veg">Veg · Eggless</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Butter &amp; Walnut Sponge</span><span class="menu-item-price">₹325</span></div><p class="menu-item-desc">Rich buttery eggless sponge with whole walnuts baked throughout.</p><span class="menu-item-badge badge-veg">Veg · Eggless</span></div>
+
+      </div><!-- /pastries -->
+
+      <!-- 🎂 CAKES PANEL -->
+      <div class="menu-grid-panel" id="panel-cakes">
+
+        <div class="menu-card" style="grid-column:1/-1;background:transparent;border-color:transparent;border-left:none;padding:0.5rem 0 0"><span class="cuisine-tag" style="font-size:.85rem">— Cakes (0.5 kg) —</span></div>
+
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Chocolate Mousse Cake</span><span class="menu-item-price">₹595</span></div><p class="menu-item-desc">Dark chocolate sponge layered with whipped mousse and chocolate mirror glaze.</p><span class="menu-item-badge badge-special">Bestseller</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Blueberry Cake</span><span class="menu-item-price">₹695</span></div><p class="menu-item-desc">Vanilla sponge with blueberry compote layers and fresh blueberry cream frosting.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Strawberry Cake</span><span class="menu-item-price">₹595</span></div><p class="menu-item-desc">Fresh strawberry layers, whipped cream and strawberry glaze. Light and fruity.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Butterscotch Cake</span><span class="menu-item-price">₹595</span></div><p class="menu-item-desc">Golden sponge with butterscotch cream, caramel drizzle and almond praline crunch.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Red Velvet Cake</span><span class="menu-item-price">₹695</span></div><p class="menu-item-desc">Classic deep red velvet sponge with silky cream cheese frosting. Iconic and elegant.</p><span class="menu-item-badge badge-special">Customer Fav</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Coffee &amp; Walnut Cake</span><span class="menu-item-price">₹695</span></div><p class="menu-item-desc">Coffee-soaked sponge with walnut buttercream and halved walnuts — a British classic.</p><span class="menu-item-badge badge-special">British Classic</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Lotus Biscoff Cake</span><span class="menu-item-price">₹495</span></div><p class="menu-item-desc">Biscoff sponge layered with Lotus cream and crowned with crushed caramelised cookies.</p><span class="menu-item-badge badge-special">Must Try</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Mango Cake</span><span class="menu-item-price">₹495</span></div><p class="menu-item-desc">Alphonso mango cream cake — seasonal, tropical and utterly refreshing.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+
+        <div class="menu-card" style="grid-column:1/-1;background:transparent;border-color:transparent;border-left:none;padding:0.5rem 0 0"><span class="cuisine-tag" style="font-size:.85rem">— Exotic Cakes (0.5 kg) —</span></div>
+
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Chocolate Fudge</span><span class="menu-item-price">₹800</span></div><p class="menu-item-desc">Dense ultra-rich chocolate fudge cake layered with dark ganache. For serious chocoholics.</p><span class="menu-item-badge badge-special">Chef's Pride</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Chocolate Vertical Cake</span><span class="menu-item-price">₹900</span></div><p class="menu-item-desc">Dramatic vertical-layered chocolate cake — a striking showpiece with deep flavour.</p><span class="menu-item-badge badge-special">Showpiece</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Caramel Vertical Cake</span><span class="menu-item-price">₹900</span></div><p class="menu-item-desc">Layered caramel sponge in vertical presentation — golden, sweet and spectacular.</p><span class="menu-item-badge badge-special">Showpiece</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Ferrero Rocher Cake</span><span class="menu-item-price">₹950</span></div><p class="menu-item-desc">Hazelnut praline sponge covered in ganache and studded with Ferrero Rochers.</p><span class="menu-item-badge badge-special">Celebration</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Exotic Red Velvet</span><span class="menu-item-price">₹750</span></div><p class="menu-item-desc">Elevated red velvet with edible gold dust and premium cream cheese dome finish.</p><span class="menu-item-badge badge-special">Premium</span></div>
+
+      </div><!-- /cakes -->
+
+      <!-- 🍮 CHEESECAKES PANEL -->
+      <div class="menu-grid-panel" id="panel-cheesecake">
+
+        <div class="menu-card" style="grid-column:1/-1;background:transparent;border-color:transparent;border-left:none;padding:0.5rem 0 0"><span class="cuisine-tag" style="font-size:.85rem">— Cheesecake Slices —</span></div>
+
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Lemon Cheesecake Slice</span><span class="menu-item-price">₹240</span></div><p class="menu-item-desc">Zesty citrus New York-style lemon cheesecake on a buttery biscuit base.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Strawberry Cheesecake Slice</span><span class="menu-item-price">₹240</span></div><p class="menu-item-desc">Creamy cheesecake with a fresh strawberry compote topping.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Mango Cheesecake Slice</span><span class="menu-item-price">₹240</span></div><p class="menu-item-desc">Set cheesecake with Alphonso mango layer and fresh mango coulis.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Blueberry Cheesecake Slice</span><span class="menu-item-price">₹280</span></div><p class="menu-item-desc">Cream cheese cake topped with jammy blueberry compote and fresh blueberries.</p><span class="menu-item-badge badge-special">Bestseller</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">New York Cheesecake Slice</span><span class="menu-item-price">₹280</span></div><p class="menu-item-desc">Classic dense creamy New York baked cheesecake — pure, simple and unbeatable.</p><span class="menu-item-badge badge-special">Classic</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Lotus Biscoff Cheesecake Slice</span><span class="menu-item-price">₹300</span></div><p class="menu-item-desc">Biscoff biscuit base, caramelised cream cheese and Lotus spread drizzle on top.</p><span class="menu-item-badge badge-special">Must Try</span></div>
+
+        <div class="menu-card" style="grid-column:1/-1;background:transparent;border-color:transparent;border-left:none;padding:0.5rem 0 0"><span class="cuisine-tag" style="font-size:.85rem">— Whole Cheesecakes (6-inch) —</span></div>
+
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Blueberry Cheesecake (6-inch)</span><span class="menu-item-price">₹1,490</span></div><p class="menu-item-desc">Full 6-inch blueberry cheesecake — perfect for celebrations and gifting.</p><span class="menu-item-badge badge-special">Celebration</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Strawberry Cheesecake (6-inch)</span><span class="menu-item-price">₹1,490</span></div><p class="menu-item-desc">Full 6-inch strawberry cheesecake with fresh berry topping. A showstopper.</p><span class="menu-item-badge badge-special">Celebration</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Mango Cheesecake (6-inch)</span><span class="menu-item-price">₹1,090</span></div><p class="menu-item-desc">Full 6-inch mango cheesecake — tropical, creamy and impossible to resist.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Chocolate Cheesecake (6-inch)</span><span class="menu-item-price">₹1,090</span></div><p class="menu-item-desc">Full 6-inch dark chocolate cheesecake — rich ganache top and chocolate Oreo base.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Lemon Cheesecake (6-inch)</span><span class="menu-item-price">₹1,090</span></div><p class="menu-item-desc">Full 6-inch zesty lemon cheesecake — light, refreshing and perfectly tart.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+
+      </div><!-- /cheesecake -->
+
+      <!-- 🍫 DESSERTS & SUNDAES PANEL -->
+      <div class="menu-grid-panel" id="panel-desserts">
+
+        <div class="menu-card" style="grid-column:1/-1;background:transparent;border-color:transparent;border-left:none;padding:0.5rem 0 0"><span class="cuisine-tag" style="font-size:.85rem">— Plated Desserts —</span></div>
+
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Chocolate Mousse</span><span class="menu-item-price">₹94</span></div><p class="menu-item-desc">Airy, silky dark chocolate mousse whipped to cloud-like perfection.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Crème Brûlée</span><span class="menu-item-price">₹140</span></div><p class="menu-item-desc">Classic vanilla custard with a perfectly caramelised crisp sugar top. Torched to order.</p><span class="menu-item-badge badge-special">Chef's Fav</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Chocolate Mocha Tart</span><span class="menu-item-price">₹140</span></div><p class="menu-item-desc">Crisp shortcrust tart filled with chocolate-espresso ganache and mocha cream.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Strawberry Bavarian Cream</span><span class="menu-item-price">₹140</span></div><p class="menu-item-desc">Silky Bavarian cream mousse with fresh strawberry coulis and berry garnish.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Chocolate Donut</span><span class="menu-item-price">₹90</span></div><p class="menu-item-desc">Soft, pillowy donut dipped in rich chocolate glaze with sprinkles.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Caramel Cookies (Dessert)</span><span class="menu-item-price">₹140</span></div><p class="menu-item-desc">Golden caramel-dipped shortbread cookies — buttery, melt-in-your-mouth and addictive.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+
+        <div class="menu-card" style="grid-column:1/-1;background:transparent;border-color:transparent;border-left:none;padding:0.5rem 0 0"><span class="cuisine-tag" style="font-size:.85rem">— Brownies (with Eggs) —</span></div>
+
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Chocolate Brownie</span><span class="menu-item-price">₹275</span></div><p class="menu-item-desc">Fudgy, dense chocolate brownie with crinkle top and gooey chocolate centre.</p><span class="menu-item-badge badge-special">Bestseller</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Choco Peanut Brownie</span><span class="menu-item-price">₹345</span></div><p class="menu-item-desc">Rich chocolate brownie swirled with peanut butter and topped with roasted peanuts.</p><span class="menu-item-badge badge-special">Must Try</span></div>
+
+        <div class="menu-card" style="grid-column:1/-1;background:transparent;border-color:transparent;border-left:none;padding:0.5rem 0 0"><span class="cuisine-tag" style="font-size:.85rem">— Sundaes —</span></div>
+
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Waffle Sundae</span><span class="menu-item-price">₹290</span></div><p class="menu-item-desc">Warm crispy waffle with vanilla ice cream, chocolate sauce and fresh fruit.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Strawberry Sundae</span><span class="menu-item-price">₹310</span></div><p class="menu-item-desc">Strawberry ice cream with fresh berry compote, cream and a wafer fan.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Hazelnut Mocha Sundae</span><span class="menu-item-price">₹330</span></div><p class="menu-item-desc">Coffee ice cream with hazelnut praline sauce and mocha drizzle.</p><span class="menu-item-badge badge-special">Chef's Pick</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Blueberry Chocolate Sundae</span><span class="menu-item-price">₹320</span></div><p class="menu-item-desc">Chocolate ice cream with blueberry compote, whipped cream and chocolate shavings.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Lotus Biscoff Sundae</span><span class="menu-item-price">₹340</span></div><p class="menu-item-desc">Vanilla ice cream drenched in warm Biscoff spread with crushed Lotus cookies.</p><span class="menu-item-badge badge-special">Bestseller</span></div>
+
+      </div><!-- /desserts -->
+
+      <!-- 🍕 ROLLS & SNACKS PANEL -->
+      <div class="menu-grid-panel" id="panel-bites">
+
+        <div class="menu-card" style="grid-column:1/-1;background:transparent;border-color:transparent;border-left:none;padding:0.5rem 0 0"><span class="cuisine-tag" style="font-size:.85rem">— Benne Rolls —</span></div>
+
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Chicken Shammi Benne Roll</span><span class="menu-item-price">₹195</span></div><p class="menu-item-desc">Soft sesame milk bun filled with spiced chicken shammi kebab, onion and chutney.</p></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Chicken Tikka Benne Roll</span><span class="menu-item-price">₹195</span></div><p class="menu-item-desc">Chargrilled chicken tikka in a soft Benne bun with mint chutney and pickled onion.</p><span class="menu-item-badge badge-special">Bestseller</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Medium Prama Benne Roll</span><span class="menu-item-price">₹195</span></div><p class="menu-item-desc">Medium-spiced Prama filling in a buttery sesame milk bun.</p></div>
+
+        <div class="menu-card" style="grid-column:1/-1;background:transparent;border-color:transparent;border-left:none;padding:0.5rem 0 0"><span class="cuisine-tag" style="font-size:.85rem">— Calzone —</span></div>
+
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Veg Calzone</span><span class="menu-item-price">₹140</span></div><p class="menu-item-desc">Folded pizza dough stuffed with mozzarella, roasted vegetables and marinara sauce.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Chicken Calzone</span><span class="menu-item-price">₹150</span></div><p class="menu-item-desc">Golden folded pizza pocket with spiced chicken, cheese and house sauce.</p></div>
+
+        <div class="menu-card" style="grid-column:1/-1;background:transparent;border-color:transparent;border-left:none;padding:0.5rem 0 0"><span class="cuisine-tag" style="font-size:.85rem">— Cookies &amp; Biscuits —</span></div>
+
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Butter Cookies</span><span class="menu-item-price">₹230</span></div><p class="menu-item-desc">Classic melt-in-your-mouth butter shortbread cookies. Baked to golden perfection.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Almond Cookies</span><span class="menu-item-price">₹250</span></div><p class="menu-item-desc">Crumbly shortbread packed with roasted whole almonds and almond essence.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Strawberry Cookies</span><span class="menu-item-price">₹250</span></div><p class="menu-item-desc">Fruity, soft cookies with real strawberry pieces and a pink sugar glaze.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Chocolate Chip Cookies</span><span class="menu-item-price">₹250</span></div><p class="menu-item-desc">Brown butter cookies with generous dark chocolate chip pockets. Warm and gooey.</p><span class="menu-item-badge badge-special">Customer Fav</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Caramel Cookies</span><span class="menu-item-price">₹250</span></div><p class="menu-item-desc">Buttery cookies with a caramel swirl centre and sea salt flake finish.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Ginger Cookies</span><span class="menu-item-price">₹230</span></div><p class="menu-item-desc">Spiced ginger snap cookies — crispy, warming and unmistakably British.</p><span class="menu-item-badge badge-special">British Classic</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Coconut Macarons</span><span class="menu-item-price">₹270</span></div><p class="menu-item-desc">Light crispy coconut macaroons with toasted flakes and a sweet golden crust.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Whole Wheat Biscotti</span><span class="menu-item-price">₹240</span></div><p class="menu-item-desc">Twice-baked whole wheat biscotti — crunchy, nutty, perfect to dip in coffee.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Wafer Cookies</span><span class="menu-item-price">₹400</span></div><p class="menu-item-desc">Elegant thin crispy wafer cookies — light as air with a delicate vanilla flavour.</p><span class="menu-item-badge badge-veg">Veg</span></div>
+        <div class="menu-card"><div class="menu-item-header"><span class="menu-item-name">Alphonso &amp; Vanilla Cookies</span><span class="menu-item-price">₹200</span></div><p class="menu-item-desc">Mango-flecked vanilla butter cookies — a seasonal signature unique to our bakery.</p><span class="menu-item-badge badge-special">House Special</span></div>
+
+      </div><!-- /bites -->
+
+    </div>
+  </section>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">The Full English</span>
+            <span class="menu-item-price">₹449</span>
+          </div>
+          <p class="menu-item-desc">Free-range eggs (fried, scrambled or poached), smoked back bacon, grilled pork sausages, baked beans, grilled tomato & mushrooms on sourdough toast.</p>
+          <span class="menu-item-badge badge-special">Chef's Favourite</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Eggs Benedict</span>
+            <span class="menu-item-price">₹349</span>
+          </div>
+          <p class="menu-item-desc">Perfectly poached eggs on toasted English muffin with Canadian ham and silky hollandaise sauce.</p>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Masala Omelette</span>
+            <span class="menu-item-price">₹229</span>
+          </div>
+          <p class="menu-item-desc">Three-egg omelette with green chillies, onions, coriander & tomato, served with buttered toast.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Avocado Toast</span>
+            <span class="menu-item-price">₹299</span>
+          </div>
+          <p class="menu-item-desc">Smashed avocado on toasted sourdough, cherry tomatoes, poached egg, chilli flakes & microgreens.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Pancake Stack</span>
+            <span class="menu-item-price">₹279</span>
+          </div>
+          <p class="menu-item-desc">Fluffy American-style pancakes with maple syrup, whipped butter and seasonal berries.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Granola Bowl</span>
+            <span class="menu-item-price">₹219</span>
+          </div>
+          <p class="menu-item-desc">House-toasted oat granola with Greek yoghurt, honey drizzle, mixed nuts and fresh fruit.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+      </div><!-- /breakfast -->
+
+      <!-- MAINS PANEL -->
+      <div class="menu-grid-panel" id="panel-mains">
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Shepherd's Pie</span>
+            <span class="menu-item-price">₹499</span>
+          </div>
+          <p class="menu-item-desc">Slow-braised lamb mince with root vegetables under a golden mashed potato crust, served with garden peas.</p>
+          <span class="menu-item-badge badge-special">British Classic</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Fish & Chips</span>
+            <span class="menu-item-price">₹479</span>
+          </div>
+          <p class="menu-item-desc">Beer-battered Basa fillet, hand-cut chips, mushy peas and house tartar sauce — proper British pub style.</p>
+          <span class="menu-item-badge badge-special">British Classic</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Chicken Tikka Masala</span>
+            <span class="menu-item-price">₹429</span>
+          </div>
+          <p class="menu-item-desc">Tender grilled chicken tikka in a rich, spiced tomato-cream sauce. Served with basmati rice and naan.</p>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Heirloom Basil Flatbread</span>
+            <span class="menu-item-price">₹369</span>
+          </div>
+          <p class="menu-item-desc">Hand-stretched wood-fired flatbread, cold-pressed olive oil, fresh buffalo mozzarella & heirloom tomatoes.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Tagliatelle Ragù</span>
+            <span class="menu-item-price">₹449</span>
+          </div>
+          <p class="menu-item-desc">Fresh hand-rolled egg pasta tossed in a slow-simmered robust heritage beef sauce with Parmigiano shavings.</p>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Paneer Tikka Wrap</span>
+            <span class="menu-item-price">₹319</span>
+          </div>
+          <p class="menu-item-desc">Chargrilled spiced paneer, pickled onion, mint chutney and raita wrapped in a warm whole-wheat paratha.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+      </div><!-- /mains -->
+
+      <!-- BAKES & PASTRIES PANEL -->
+      <div class="menu-grid-panel" id="panel-bakes">
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Classic Croissant</span>
+            <span class="menu-item-price">₹129</span>
+          </div>
+          <p class="menu-item-desc">Laminated all-butter croissant with 72 flaky layers — golden, shattering, and impossibly light.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Pain au Chocolat</span>
+            <span class="menu-item-price">₹149</span>
+          </div>
+          <p class="menu-item-desc">Delicate puff pastry encasing two batons of dark Belgian chocolate. Best enjoyed still warm.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Scones & Clotted Cream</span>
+            <span class="menu-item-price">₹199</span>
+          </div>
+          <p class="menu-item-desc">Two warm, crumbly British scones served with Devonshire clotted cream and house-made strawberry jam.</p>
+          <span class="menu-item-badge badge-special">Afternoon Tea</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Wild-Yeast Sourdough Loaf</span>
+            <span class="menu-item-price">₹249</span>
+          </div>
+          <p class="menu-item-desc">Slow-fermented 48-hour sourdough with a thick caramelised crust and an open, airy crumb. Served with cultured butter.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Cinnamon Roll</span>
+            <span class="menu-item-price">₹159</span>
+          </div>
+          <p class="menu-item-desc">Pillowy, hand-rolled cinnamon swirl drizzled with vanilla cream cheese icing. A proper British bakery staple.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Banana Walnut Loaf</span>
+            <span class="menu-item-price">₹179</span>
+          </div>
+          <p class="menu-item-desc">Moist, dense banana bread studded with toasted walnuts. A slice of pure comfort.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+      </div><!-- /bakes -->
+
+      <!-- ASIAN BITES PANEL -->
+      <div class="menu-grid-panel" id="panel-asian">
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Crystal Ginger Dumplings</span>
+            <span class="menu-item-price">₹299</span>
+          </div>
+          <p class="menu-item-desc">Hand-folded translucent wrappers filled with ginger, sesame & minced vegetables. Steamed to perfection, served with dipping soy.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Chicken Momos</span>
+            <span class="menu-item-price">₹279</span>
+          </div>
+          <p class="menu-item-desc">Juicy minced chicken dumplings, steam-cooked and served with spicy house chutney.</p>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Aromatic Coconut Laksa</span>
+            <span class="menu-item-price">₹349</span>
+          </div>
+          <p class="menu-item-desc">Rice noodles in a rich coconut-spice broth, topped with crisp bean sprouts, tofu puffs and fragrant herbs.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Green Papaya Salad</span>
+            <span class="menu-item-price">₹229</span>
+          </div>
+          <p class="menu-item-desc">Shredded green papaya, crushed roasted peanuts, lime, chilli, fish sauce & cherry tomatoes. Vibrant and refreshing.</p>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Prawn Pad Thai</span>
+            <span class="menu-item-price">₹399</span>
+          </div>
+          <p class="menu-item-desc">Wok-tossed rice noodles with tiger prawns, egg, tamarind glaze, bean sprouts and crushed peanuts.</p>
+          <span class="menu-item-badge badge-special">Chef's Pick</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Veg Spring Rolls</span>
+            <span class="menu-item-price">₹219</span>
+          </div>
+          <p class="menu-item-desc">Crispy golden rolls stuffed with stir-fried cabbage, carrots, glass noodles and shiitake mushrooms. Served with plum dip.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+      </div><!-- /asian -->
+
+      <!-- DRINKS PANEL -->
+      <div class="menu-grid-panel" id="panel-drinks">
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">House Espresso</span>
+            <span class="menu-item-price">₹99</span>
+          </div>
+          <p class="menu-item-desc">Single or double shot of our house-blend espresso, sourced from the Nilgiri highlands. Rich, dark, and balanced.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Flat White</span>
+            <span class="menu-item-price">₹149</span>
+          </div>
+          <p class="menu-item-desc">A velvety double ristretto topped with microfoam whole milk — the original Antipodean way.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Earl Grey Pot</span>
+            <span class="menu-item-price">₹129</span>
+          </div>
+          <p class="menu-item-desc">A proper British-style pot of loose-leaf Earl Grey, steeped 4 minutes. Served with milk and sugar.</p>
+          <span class="menu-item-badge badge-special">British Classic</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Masala Chai</span>
+            <span class="menu-item-price">₹109</span>
+          </div>
+          <p class="menu-item-desc">Simmered whole spices — cardamom, ginger, cinnamon, clove — blended with Assam CTC and full-cream milk.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Cold Brew</span>
+            <span class="menu-item-price">₹179</span>
+          </div>
+          <p class="menu-item-desc">18-hour cold-extracted house coffee, smooth and naturally sweet. Served over ice with optional oat milk.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Fresh Lemonade</span>
+            <span class="menu-item-price">₹129</span>
+          </div>
+          <p class="menu-item-desc">Hand-squeezed lemons, mint, and a hint of rose syrup over crushed ice. Perfectly refreshing.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+      </div><!-- /drinks -->
+
+      <!-- DESSERTS PANEL -->
+      <div class="menu-grid-panel" id="panel-desserts">
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Sticky Toffee Pudding</span>
+            <span class="menu-item-price">₹299</span>
+          </div>
+          <p class="menu-item-desc">Warm date sponge drenched in butterscotch toffee sauce, served with a scoop of clotted cream vanilla ice cream.</p>
+          <span class="menu-item-badge badge-special">British Classic</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Lemon Posset</span>
+            <span class="menu-item-price">₹249</span>
+          </div>
+          <p class="menu-item-desc">Silky-smooth lemon cream dessert, set overnight and topped with fresh raspberries and shortbread crumble.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Crème Brûlée</span>
+            <span class="menu-item-price">₹279</span>
+          </div>
+          <p class="menu-item-desc">Classic vanilla custard with a perfectly caramelised, crisp sugar top. Torched to order at your table.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Chocolate Fondant</span>
+            <span class="menu-item-price">₹319</span>
+          </div>
+          <p class="menu-item-desc">Dark Valrhona chocolate cake with a molten flowing centre, dusted with icing sugar, served with vanilla bean ice cream.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Mango Panna Cotta</span>
+            <span class="menu-item-price">₹229</span>
+          </div>
+          <p class="menu-item-desc">Delicate vanilla panna cotta set with Alphonso mango coulis and a sprinkle of crushed pistachios.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+        <div class="menu-card">
+          <div class="menu-item-header">
+            <span class="menu-item-name">Tiramisu</span>
+            <span class="menu-item-price">₹259</span>
+          </div>
+          <p class="menu-item-desc">Espresso-soaked ladyfingers layered with mascarpone cream and dusted generously with cocoa powder.</p>
+          <span class="menu-item-badge badge-veg">Veg</span>
+        </div>
+
+      </div><!-- /desserts -->
+
+    </div>
+  </section>
+
+  <!-- CTA / Reserve Section -->
+  <section class="cta-section" id="reserve">
+    <div class="container">
+      <div class="cta-card reveal">
+        <p class="section-subtitle">Your Place at the Table</p>
+        <h2 class="cta-title">Ready to Begin the Journey?</h2>
+        <p class="cta-desc">Whether you are gathering the family for a long, lazy Sunday brunch, sharing a quiet pot of
+          Earl Grey with a good book, or exploring a new corner of the culinary world — there is a chair waiting for
+          you. Come, breathe in the aromas, and let us serve you a memory.</p>
+        <button class="btn btn-primary open-booking" id="main-cta-btn">Book a Table Now</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <a href="#" class="logo">
+            <span class="logo-the">The</span>
+            <span class="logo-british">British</span>
+            <span class="logo-bakes">Bakes</span>
+          </a>
+          <p>A neighbourhood sanctuary where global flavours align under soft amber lights. Slow down, connect, and
+            enjoy the journey.</p>
+        </div>
+        <div>
+          <h4 class="footer-title">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#concept">Our Story</a></li>
+            <li><a href="#menu">Our Cuisines</a></li>
+            <li><a href="#full-menu">Menu</a></li>
+            <li><a href="#reserve">Reservations</a></li>
+          </ul>
+        </div>
+        <div class="footer-info">
+          <h4 class="footer-title">Contact & Location</h4>
+          <p><strong>Address:</strong> 12 Lane, Koregaon Park, Pune, Maharashtra 411001</p>
+          <p><strong>Phone:</strong> +91 20 8593 1102</p>
+          <p><strong>Hours:</strong> Tue – Sun: 8:00 AM – 11:00 PM (Closed Mondays)</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 The British Bakes. All rights reserved.</p>
+        <p>The Perfect Blend of Coffee, Bakes, and Cuisine.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Booking Modal -->
+  <div class="modal" id="booking-modal" aria-hidden="true" role="dialog">
+    <div class="modal-overlay" id="modal-overlay-close"></div>
+    <div class="modal-content">
+      <button class="modal-close" id="modal-close-btn" aria-label="Close modal">&times;</button>
+      <h3 class="modal-title">Reserve a Table</h3>
+      <p class="modal-subtitle">Secure a cosy corner under our amber lights</p>
+
+      <form id="reservation-form">
+        <div class="form-group">
+          <label for="res-name">Full Name</label>
+          <input type="text" id="res-name" placeholder="E.g., Rohan Sharma" required>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="res-date">Date</label>
+            <input type="date" id="res-date" required>
+          </div>
+          <div class="form-group">
+            <label for="res-time">Time</label>
+            <input type="time" id="res-time" required>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="res-guests">Number of Guests</label>
+            <select id="res-guests" required>
+              <option value="1">1 Person</option>
+              <option value="2" selected>2 People</option>
+              <option value="3">3 People</option>
+              <option value="4">4 People</option>
+              <option value="5">5 People</option>
+              <option value="6">6+ People</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="res-cuisine">Cuisine Preference</label>
+            <select id="res-cuisine">
+              <option value="any">Any — Surprises Welcome</option>
+              <option value="british">The British Table</option>
+              <option value="parisian">The Parisian Oven</option>
+              <option value="mediterranean">Mediterranean Hearth</option>
+              <option value="asian">Steam & Spice Trail</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary" id="submit-res-btn">Confirm Reservation</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- JS Interactions Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>
